@@ -17,12 +17,14 @@ export default function App() {
         
         <Tip tip="dica de Teste ;) !" />
 
-        <Letter value="T" />
-        <Letter value="E" />
-        <Letter value="S" />
-        <Letter value="T" />
-        <Letter value="E" />
-        <Letter value="" />
+        <div className={styles.word}>
+          <Letter value="T" />
+          <Letter value="E" />
+          <Letter value="S" />
+          <Letter value="T" />
+          <Letter value="E" />
+          <Letter value="" />
+        </div>
       </main>
     </div>
   );
