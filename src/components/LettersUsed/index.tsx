@@ -6,7 +6,12 @@ function LettersUsed() {
     <div className={style.lettersUsed}>
       <h5>Letras Ultilizadas</h5>
 
-      <Letter value={"A"} />
+      <div>
+        <Letter value={"J"} size="small" color="wrong" />
+        <Letter value={"E"} size="small" color="correct"/>
+        <Letter value={"S"} size="small" color="correct"/>
+        <Letter value={"U"} size="small" color="wrong" />
+      </div>
     </div>
   )
 }
